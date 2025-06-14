@@ -2,7 +2,7 @@ const loginForm = document.getElementById("login_form");
 const logintInput = document.querySelectot("#login_form input");
 const logintButton = document.querySelectot("#login_form button");
 
-function onLofintBtnClick() {
+function onLogintBtnClick() {
   const playerName = loginInput.value;
   if (playerName === "") {
     alert("이름을 입력하세요");
